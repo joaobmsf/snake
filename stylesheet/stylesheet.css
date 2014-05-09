@@ -1,2 +1,18 @@
 * {
+  box-sizing: border-box;
+}
+
+.tela {
+  background-color: aqua;
+  width: 500px;
+}
+
+.tela .row {
+  border: 1px dotted black
+}
+
+.tela .row .cell {
+  border: 1px solid black;
+  float: left;
+  width: 10%;
 }
